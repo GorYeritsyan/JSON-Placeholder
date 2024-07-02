@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Poppins;
+}
+
+ul{
+  list-style: none;
+}
+.container{
+  max-width: 1440px;
+  margin: auto;
+  padding: 15px 0;
+}
+
+
+.active{
+  color: red;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./Fonts/Poppins/Poppins-Regular.ttf);
+}

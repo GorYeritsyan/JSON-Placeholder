@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    height: 50px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.379);
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+    
+
+    ul{
+        list-style: none;
+        display: flex;
+        column-gap: 50px;
+        font-size: 20px;
+        height: 100%;
+        align-items: center;
+
+        li{
+            cursor: pointer;
+            height: inherit;
+            display: flex;
+            align-items: center;
+
+            a{
+                text-decoration: none;
+                color: black;
+                font-weight: 500;
+                height: inherit;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

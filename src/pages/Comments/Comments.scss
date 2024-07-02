@@ -1,0 +1,14 @@
+.comments{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    .item{
+        border: 1px solid rgba(0, 0, 0, 0.781);
+        padding: 10px;
+    
+        span{
+            color: rgba(128, 128, 128, 0.749);
+        }
+    }
+    
+}
